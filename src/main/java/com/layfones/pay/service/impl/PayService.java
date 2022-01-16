@@ -41,7 +41,7 @@ public class PayService implements IPayService {
         bestPayService.pay(payRequest);
 
         PayResponse payResponse = bestPayService.pay(payRequest);
-        log.info("WX:response={}", payResponse);
+        log.info("WX:::::response={}", payResponse);
         return payResponse;
     }
 
